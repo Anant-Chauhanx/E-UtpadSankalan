@@ -32,7 +32,6 @@ const App = () => {
       alert("An error occurred while fetching the facilities in the selected city.");
     }
   };
-
   const getRealAddress = async (lat, lon) => {
     try {
       const response = await fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lon}`);
