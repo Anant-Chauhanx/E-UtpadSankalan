@@ -20,7 +20,7 @@ const Footer = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('http://localhost:3000/subscribe', {
+      const response = await fetch(`${process.env.REACT_APP_API_URL}/subscribe`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
