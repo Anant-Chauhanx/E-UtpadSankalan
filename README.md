@@ -16,8 +16,7 @@ This MERN stack project is designed to help users find e-waste recycling facilit
 - **Others:** Mongoose, dotenv, CORS
 
 ## Desktop View
-![screen shot shortcut xboc gamebar - Google Search - Google Chrome 25-02-2024 05_20_41 PM](https://github.com/Anant-Chauhanx/E-UtpadSankalan/assets/133632782/8e2631f9-0ff1-42ad-9e54-5cd2f67ee4b1)
-![E-Utpad Sankalan - Google Chrome 25-02-2024 05_22_30 PM](https://github.com/Anant-Chauhanx/E-UtpadSankalan/assets/133632782/4ce5ba68-7f65-4ff0-a67a-a6e82456946e)
+<img src="https://github.com/Anant-Chauhanx/E-UtpadSankalan/assets/133632782/8e2631f9-0ff1-42ad-9e54-5cd2f67ee4b1" width="600"> <img src="https://github.com/Anant-Chauhanx/E-UtpadSankalan/assets/133632782/4ce5ba68-7f65-4ff0-a67a-a6e82456946e" width="600">
 
 ## Mobile View
 ![E-Utpad Sankalan - Google Chrome 25-02-2024 05_38_51 PM](https://github.com/Anant-Chauhanx/E-UtpadSankalan/assets/133632782/67f1b60f-6470-4e04-82e3-65e642f95b74)
