@@ -24,7 +24,7 @@ const App = () => {
 
   const selectCity = async (city) => {
     try {
-      const response = await fetch(`http://localhost:3000/locations/city?city=${city}`);
+      const response = await fetch(`${process.env.REACT_APP_API_URL}/locations/city?city=${city}`);
       const data = await response.json();
       setFacilityDetails(data);
     } catch (error) {
@@ -58,7 +58,7 @@ const App = () => {
   const findNearestFacility = async () => {
     try {
       if (userLatitude && userLongitude) {
-        const response = await fetch(`http://localhost:3000/locations?latitude=${userLatitude}&longitude=${userLongitude}`);
+        const response = await fetch(`${process.env.REACT_APP_API_URL}/locations?latitude=${userLatitude}&longitude=${userLongitude}`);
         const data = await response.json();
         setFacilityDetails(data);
       } else {
